@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-image: url('final.jpg'); /* Replace 'your-background-image.jpg' with your actual image file */
+    background-size: cover; /* Ensure the background image covers the entire screen */
+    background-position: center; /* Center the background image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3rem; /* Larger font size for the heading */
+    color: #333; /* Dark gray color for the heading */
+    margin-bottom: 20px; /* Add some margin below the heading */
+    background-image: linear-gradient(to bottom, #6a00ff, #cc97f1); /* Gradient for the text color */
+    -webkit-background-clip: text; /* Apply gradient as text color (for WebKit-based browsers) */
+    background-clip: text; /* Apply gradient as text color */
+    -webkit-text-fill-color: transparent; /* Hide original text color (for WebKit-based browsers) */
+    text-fill-color: transparent; /* Hide original text color */
+}
+
+canvas {
+    border: 2px solid #333; /* Add border to the canvas */
+    background-color: #fff; /* White background for the canvas */
+    margin-bottom: 20px; /* Add some margin below the canvas */
+}
+
+p {
+    color: #555; /* Dark gray color for the paragraph */
+    margin-bottom: 20px; /* Add some margin below the paragraph */
+}
